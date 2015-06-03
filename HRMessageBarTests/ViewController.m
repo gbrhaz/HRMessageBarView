@@ -9,10 +9,6 @@
 #import "ViewController.h"
 #import "HRMessageBarView.h"
 
-@interface ViewController ()
-
-@end
-
 @implementation ViewController
 
 - (void)viewDidLoad {
@@ -25,7 +21,7 @@
     
     
     
-    
+    // Also notice how the title gets truncated here, not the title explanation
     HRMessageBarView *uploadedMessageBarView = [HRMessageBarView messageWithTitle:@"Example operation"
                                                                            detail:@"Tap to resolve"
                                                                              type:HRMessageBarTypeError

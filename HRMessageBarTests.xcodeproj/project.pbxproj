@@ -7,28 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C6ADEEFE1B1F1525003A261C /* HRMessageBarView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C6ADEEFB1B1F1525003A261C /* HRMessageBarView.bundle */; };
+		C6ADEEFF1B1F1525003A261C /* HRMessageBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6ADEEFD1B1F1525003A261C /* HRMessageBarView.m */; };
 		C6E6BF141B1F0283002B7AF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E6BF131B1F0283002B7AF9 /* main.m */; };
 		C6E6BF171B1F0283002B7AF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E6BF161B1F0283002B7AF9 /* AppDelegate.m */; };
 		C6E6BF1A1B1F0283002B7AF9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E6BF191B1F0283002B7AF9 /* ViewController.m */; };
 		C6E6BF1D1B1F0283002B7AF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6E6BF1B1B1F0283002B7AF9 /* Main.storyboard */; };
 		C6E6BF1F1B1F0283002B7AF9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6E6BF1E1B1F0283002B7AF9 /* Images.xcassets */; };
 		C6E6BF221B1F0283002B7AF9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6E6BF201B1F0283002B7AF9 /* LaunchScreen.xib */; };
-		C6E6BF2E1B1F0283002B7AF9 /* HRMessageBarTestsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E6BF2D1B1F0283002B7AF9 /* HRMessageBarTestsTests.m */; };
-		C6E6BF3A1B1F02AF002B7AF9 /* HRMessageBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E6BF391B1F02AF002B7AF9 /* HRMessageBarView.m */; };
-		C6E6BF3E1B1F0455002B7AF9 /* HRMessageBarView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C6E6BF3D1B1F0455002B7AF9 /* HRMessageBarView.bundle */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		C6E6BF281B1F0283002B7AF9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C6E6BF061B1F0283002B7AF9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C6E6BF0D1B1F0283002B7AF9;
-			remoteInfo = HRMessageBarTests;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		C6ADEEFB1B1F1525003A261C /* HRMessageBarView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HRMessageBarView.bundle; sourceTree = "<group>"; };
+		C6ADEEFC1B1F1525003A261C /* HRMessageBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRMessageBarView.h; sourceTree = "<group>"; };
+		C6ADEEFD1B1F1525003A261C /* HRMessageBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRMessageBarView.m; sourceTree = "<group>"; };
 		C6E6BF0E1B1F0283002B7AF9 /* HRMessageBarTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HRMessageBarTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6E6BF121B1F0283002B7AF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6E6BF131B1F0283002B7AF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -39,12 +31,6 @@
 		C6E6BF1C1B1F0283002B7AF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C6E6BF1E1B1F0283002B7AF9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C6E6BF211B1F0283002B7AF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		C6E6BF271B1F0283002B7AF9 /* HRMessageBarTestsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HRMessageBarTestsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6E6BF2C1B1F0283002B7AF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C6E6BF2D1B1F0283002B7AF9 /* HRMessageBarTestsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRMessageBarTestsTests.m; sourceTree = "<group>"; };
-		C6E6BF381B1F02AF002B7AF9 /* HRMessageBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRMessageBarView.h; sourceTree = "<group>"; };
-		C6E6BF391B1F02AF002B7AF9 /* HRMessageBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRMessageBarView.m; sourceTree = "<group>"; };
-		C6E6BF3D1B1F0455002B7AF9 /* HRMessageBarView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HRMessageBarView.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,21 +41,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C6E6BF241B1F0283002B7AF9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C6ADEEFA1B1F1525003A261C /* HRMessageBar */ = {
+			isa = PBXGroup;
+			children = (
+				C6ADEEFB1B1F1525003A261C /* HRMessageBarView.bundle */,
+				C6ADEEFC1B1F1525003A261C /* HRMessageBarView.h */,
+				C6ADEEFD1B1F1525003A261C /* HRMessageBarView.m */,
+			);
+			path = HRMessageBar;
+			sourceTree = "<group>";
+		};
 		C6E6BF051B1F0283002B7AF9 = {
 			isa = PBXGroup;
 			children = (
 				C6E6BF101B1F0283002B7AF9 /* HRMessageBarTests */,
-				C6E6BF2A1B1F0283002B7AF9 /* HRMessageBarTestsTests */,
 				C6E6BF0F1B1F0283002B7AF9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,7 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				C6E6BF0E1B1F0283002B7AF9 /* HRMessageBarTests.app */,
-				C6E6BF271B1F0283002B7AF9 /* HRMessageBarTestsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,7 +73,7 @@
 		C6E6BF101B1F0283002B7AF9 /* HRMessageBarTests */ = {
 			isa = PBXGroup;
 			children = (
-				C6E6BF371B1F02AF002B7AF9 /* HRMessageBar */,
+				C6ADEEFA1B1F1525003A261C /* HRMessageBar */,
 				C6E6BF151B1F0283002B7AF9 /* AppDelegate.h */,
 				C6E6BF161B1F0283002B7AF9 /* AppDelegate.m */,
 				C6E6BF181B1F0283002B7AF9 /* ViewController.h */,
@@ -106,33 +93,6 @@
 				C6E6BF131B1F0283002B7AF9 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		C6E6BF2A1B1F0283002B7AF9 /* HRMessageBarTestsTests */ = {
-			isa = PBXGroup;
-			children = (
-				C6E6BF2D1B1F0283002B7AF9 /* HRMessageBarTestsTests.m */,
-				C6E6BF2B1B1F0283002B7AF9 /* Supporting Files */,
-			);
-			path = HRMessageBarTestsTests;
-			sourceTree = "<group>";
-		};
-		C6E6BF2B1B1F0283002B7AF9 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C6E6BF2C1B1F0283002B7AF9 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		C6E6BF371B1F02AF002B7AF9 /* HRMessageBar */ = {
-			isa = PBXGroup;
-			children = (
-				C6E6BF381B1F02AF002B7AF9 /* HRMessageBarView.h */,
-				C6E6BF391B1F02AF002B7AF9 /* HRMessageBarView.m */,
-				C6E6BF3D1B1F0455002B7AF9 /* HRMessageBarView.bundle */,
-			);
-			path = HRMessageBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,24 +115,6 @@
 			productReference = C6E6BF0E1B1F0283002B7AF9 /* HRMessageBarTests.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C6E6BF261B1F0283002B7AF9 /* HRMessageBarTestsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C6E6BF341B1F0283002B7AF9 /* Build configuration list for PBXNativeTarget "HRMessageBarTestsTests" */;
-			buildPhases = (
-				C6E6BF231B1F0283002B7AF9 /* Sources */,
-				C6E6BF241B1F0283002B7AF9 /* Frameworks */,
-				C6E6BF251B1F0283002B7AF9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C6E6BF291B1F0283002B7AF9 /* PBXTargetDependency */,
-			);
-			name = HRMessageBarTestsTests;
-			productName = HRMessageBarTestsTests;
-			productReference = C6E6BF271B1F0283002B7AF9 /* HRMessageBarTestsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -184,10 +126,6 @@
 				TargetAttributes = {
 					C6E6BF0D1B1F0283002B7AF9 = {
 						CreatedOnToolsVersion = 6.3.2;
-					};
-					C6E6BF261B1F0283002B7AF9 = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = C6E6BF0D1B1F0283002B7AF9;
 					};
 				};
 			};
@@ -205,7 +143,6 @@
 			projectRoot = "";
 			targets = (
 				C6E6BF0D1B1F0283002B7AF9 /* HRMessageBarTests */,
-				C6E6BF261B1F0283002B7AF9 /* HRMessageBarTestsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -217,15 +154,8 @@
 			files = (
 				C6E6BF1D1B1F0283002B7AF9 /* Main.storyboard in Resources */,
 				C6E6BF221B1F0283002B7AF9 /* LaunchScreen.xib in Resources */,
-				C6E6BF3E1B1F0455002B7AF9 /* HRMessageBarView.bundle in Resources */,
+				C6ADEEFE1B1F1525003A261C /* HRMessageBarView.bundle in Resources */,
 				C6E6BF1F1B1F0283002B7AF9 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C6E6BF251B1F0283002B7AF9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,30 +166,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6E6BF3A1B1F02AF002B7AF9 /* HRMessageBarView.m in Sources */,
+				C6ADEEFF1B1F1525003A261C /* HRMessageBarView.m in Sources */,
 				C6E6BF1A1B1F0283002B7AF9 /* ViewController.m in Sources */,
 				C6E6BF171B1F0283002B7AF9 /* AppDelegate.m in Sources */,
 				C6E6BF141B1F0283002B7AF9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C6E6BF231B1F0283002B7AF9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C6E6BF2E1B1F0283002B7AF9 /* HRMessageBarTestsTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		C6E6BF291B1F0283002B7AF9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C6E6BF0D1B1F0283002B7AF9 /* HRMessageBarTests */;
-			targetProxy = C6E6BF281B1F0283002B7AF9 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C6E6BF1B1B1F0283002B7AF9 /* Main.storyboard */ = {
@@ -383,40 +297,6 @@
 			};
 			name = Release;
 		};
-		C6E6BF351B1F0283002B7AF9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = HRMessageBarTestsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HRMessageBarTests.app/HRMessageBarTests";
-			};
-			name = Debug;
-		};
-		C6E6BF361B1F0283002B7AF9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = HRMessageBarTestsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HRMessageBarTests.app/HRMessageBarTests";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -436,14 +316,7 @@
 				C6E6BF331B1F0283002B7AF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		C6E6BF341B1F0283002B7AF9 /* Build configuration list for PBXNativeTarget "HRMessageBarTestsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C6E6BF351B1F0283002B7AF9 /* Debug */,
-				C6E6BF361B1F0283002B7AF9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
